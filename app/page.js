@@ -20,7 +20,7 @@ export default function Home() {
         </svg>
       ),
       title: "Fast Refresh",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus.",
+      desc: "Fast and live updates of carbon credits of different companies by help of which you can trade better with your money",
     },
     {
       icon: (
@@ -60,12 +60,12 @@ export default function Home() {
         </svg>
       ),
       title: "Datacenter security",
-      desc: "Our secure database helps you keep ",
+      desc: "Our secure database helps you keep all your data and money credits safe with us embedded with advance secured systems",
     },
   ];
   return (
     <>
-      <section className="py-32">
+      <section className="py-14">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
@@ -82,7 +82,7 @@ export default function Home() {
                 Professional services
               </h3>
               <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                Build your SaaS solution with help from our experts
+                Carbon Credits
               </p>
               <p className="mt-3 text-gray-600">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -92,7 +92,7 @@ export default function Home() {
                 natus error sit voluptatem accusantium doloremque laudantium
               </p>
               <a
-                href="javascript:void(0)"
+                href="https://en.wikipedia.org/wiki/Carbon_offsets_and_credits"
                 className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
               >
                 Learn more

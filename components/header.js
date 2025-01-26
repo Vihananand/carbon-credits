@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [state, setState] = useState(false);
@@ -14,7 +15,7 @@ export default function Header() {
     { title: "Team", path: "/team" },
     { title: "About", path: "javascript:void(0)" },
     { title: "Contacts", path: "javascript:void(0)" },
-    { title: "FAQ's", path: "javascript:void(0)" },
+    { title: "FAQ's", path: "/faqs" },
   ];
 
   useEffect(() => {
@@ -33,14 +34,14 @@ export default function Header() {
     <nav ref={navRef} className="bg-white w-full top-0 z-20 border-b-2">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:px-8 lg:flex">
         <div className="flex items-center justify-between py-3 lg:py-4 lg:block">
-          <a href="javascript:void(0)">
+          <Link href="/">
             <Image
               src="https://www.reshot.com/preview-assets/icons/62QNMPR8XB/co2-62QNMPR8XB.svg"
               width={50}
               height={50}
               alt="Float UI logo"
             />
-          </a>
+          </Link>
           <div className="lg:hidden">
             <button
               className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"

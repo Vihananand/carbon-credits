@@ -87,7 +87,7 @@ export default function Footer() {
           <div className="justify-between items-center gap-12 md:flex">
             <div className="flex-1 max-w-lg">
               <h3 className="text-2xl font-bold">
-                Get our beautiful newsletter straight to your inbox.
+                Get our newsletter straight to your inbox.
               </h3>
             </div>
             <div className="flex-1 mt-6 md:mt-0">
@@ -117,7 +117,8 @@ export default function Footer() {
                     className="w-full pl-12 pr-3 py-2 text-gray-500 bg-white outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
                   />
                 </div>
-                <button className="block w-auto py-3 px-4 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow">
+                <button 
+                className="block w-auto py-3 px-4 font-medium text-sm text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow">
                   Subscribe
                 </button>
               </form>
@@ -144,7 +145,7 @@ export default function Footer() {
           </div>
           <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
             <p className="text-gray-600">
-              © 2022 Float UI Inc. All rights reserved.
+              © new Date().getFullYear() Float UI Inc. All rights reserved.
             </p>
             <div className="flex items-center gap-x-6 text-gray-400 mt-6">
               <a href="javascript:void()">
