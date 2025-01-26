@@ -12,9 +12,9 @@ export default function Header() {
   const navigation = [
     { title: "Home", path: "/" },
     { title: "Trade", path: "javascript:void(0)" },
+    { title: "Consumer", path: "javascript:void(0)" },
     { title: "Team", path: "/team" },
-    { title: "About", path: "javascript:void(0)" },
-    { title: "Contacts", path: "javascript:void(0)" },
+    { title: "Contacts", path: "/contacts" },
     { title: "FAQ's", path: "/faqs" },
   ];
 

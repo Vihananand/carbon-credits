@@ -56,14 +56,13 @@ export default function contacts(){
                             <div className="relative mt-2">
                                 <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
                                     <select className="text-sm bg-transparent outline-none rounded-lg h-full">
+                                        <option>IN</option>
                                         <option>US</option>
-                                        <option>ES</option>
-                                        <option>MR</option>
                                     </select>
                                 </div>
                                 <input
-                                    type="number"
-                                    placeholder="+1 (555) 000-000"
+                                    type="tel"
+                                    placeholder="+91 XXXXX-XXXXX"
                                     required
                                     className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                                 />
