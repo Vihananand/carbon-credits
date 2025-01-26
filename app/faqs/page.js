@@ -36,7 +36,7 @@ export default function FAQs() {
   }, []);
 
   return (
-    <div className="leading-relaxed mt-12 mx-4 md:mx-8">
+    <div className="leading-relaxed mt-16 mb-24 mx-4 md:mx-8">
       <div className="text-center space-y-3">
         <h1 className="block text-gray-800 text-3xl font-semibold">
           Frequently Asked Questions

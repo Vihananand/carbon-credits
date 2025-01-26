@@ -3,23 +3,23 @@ import Image from "next/image";
 export default function Home() {
   const stats = [
     {
-      data: "35K",
+      data: "20K",
       title: "Customers",
     },
     {
-      data: "10K+",
+      data: "5K+",
       title: "Downloads",
     },
     {
-      data: "40+",
+      data: "5+",
       title: "Countries",
     },
     {
-      data: "30M+",
+      data: "10M+",
       title: "Total revenue",
     },
   ];
-  
+
   const features = [
     {
       icon: (
@@ -84,15 +84,15 @@ export default function Home() {
   ];
   return (
     <>
-      <section className="py-14 md:py-32">
+      <section className="py-14 md:pt-32">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
               <Image
-                src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                src="https://plus.unsplash.com/premium_photo-1679655974881-d8d9c056567f?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 className="md:max-w-lg sm:rounded-lg"
-                width={800}
-                height={500}
+                width={1000}
+                height={1000}
                 alt="Image"
               />
             </div>
@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-14 md:py-32">
+      <section className="py-14 md:pt-28">
         <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
           <div className="max-w-2xl mx-auto">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -179,8 +179,7 @@ export default function Home() {
                 We do our best to make customers always happy
               </h3>
               <p className="mt-3 max-w-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                venenatis sollicitudin quam ut tincidunt.
+                We have all of our customers happy with our services and take regular feedback so that we can always improve and make our service better
               </p>
             </div>
             <div className="flex-none mt-6 md:mt-0 lg:mt-6">

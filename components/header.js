@@ -8,10 +8,10 @@ export default function Header() {
   const [state, setState] = useState(false);
   const navRef = useRef();
 
-  // Replace javascript:void(0) path with your path
   const navigation = [
     { title: "Home", path: "/" },
     { title: "Trade", path: "javascript:void(0)" },
+    { title: "Invest", path: "javascript:void(0)" },
     { title: "Consumer", path: "javascript:void(0)" },
     { title: "Team", path: "/team" },
     { title: "Contacts", path: "/contacts" },
@@ -88,7 +88,7 @@ export default function Header() {
             <ul className="flex flex-col-reverse space-x-0 lg:space-x-6 lg:flex-row">
               <li className="mt-4 lg:mt-0">
                 <a
-                  href="javascript:void(0)"
+                  href="/signup"
                   className="py-3 px-4 text-center border text-gray-600 hover:text-indigo-600 rounded-md block lg:inline lg:border-0"
                 >
                   Sign Up

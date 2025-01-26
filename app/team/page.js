@@ -22,12 +22,22 @@ export default function Team() {
       twitter: "javascript:void(0)",
       github: "javascript:void(0)",
     },
+    {
+      avatar:
+        "https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Vihan Anand",
+      title: "Tech Team Lead",
+      desc: "Creative developer, Technical knowledge",
+      linkedin: "https://www.linkedin.com/in/vihan-anand-5bb36a282/",
+      twitter: "javascript:void(0)",
+      github: "javascript:void(0)",
+    },
   ];
 
   return (
-    <section className="py-28 min-h-[80vh]">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="max-w-xl">
+    <section className="py-24 min-h-[80vh]">
+      <div className="max-w-screen-xl mx-auto px-4 flex flex-col justify-center items-center md:px-8">
+        <div className="max-w-xl flex flex-col justify-center items-center text-center">
           <h3 className="text-gray-800 text-xl font-semibold sm:text-4xl">
             Meet our team
           </h3>

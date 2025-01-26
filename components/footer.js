@@ -145,7 +145,7 @@ export default function Footer() {
           </div>
           <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
             <p className="text-gray-600">
-              © new Date().getFullYear() Float UI Inc. All rights reserved.
+              © {new Date().getFullYear()} Float UI Inc. All rights reserved.
             </p>
             <div className="flex items-center gap-x-6 text-gray-400 mt-6">
               <a href="javascript:void()">
