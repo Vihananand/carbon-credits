@@ -65,7 +65,7 @@ export default function Home() {
   ];
   return (
     <>
-      <section className="py-14">
+      <section className="py-32 md:py-14">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-32 pb-60">
+      <section className="py-32 pb-60 md:py-14">
         <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
           <div className="max-w-2xl mx-auto">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
