@@ -91,15 +91,15 @@ export default function Header() {
                   href="javascript:void(0)"
                   className="py-3 px-4 text-center border text-gray-600 hover:text-indigo-600 rounded-md block lg:inline lg:border-0"
                 >
-                  Login
+                  Sign Up
                 </a>
               </li>
               <li className="mt-8 lg:mt-0">
                 <a
-                  href="javascript:void(0)"
+                  href="/pricing"
                   className="py-3 px-4 text-center text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow block lg:inline"
                 >
-                  Sign Up
+                  Upgrade
                 </a>
               </li>
             </ul>

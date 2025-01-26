@@ -6,7 +6,7 @@ export default function Footer() {
       label: "Resources",
       items: [
         {
-          href: "javascript:void()",
+          href: "/contacts",
           name: "Contact",
         },
         {
@@ -14,7 +14,7 @@ export default function Footer() {
           name: "Support",
         },
         {
-          href: "javascript:void()",
+          href: "/pricing",
           name: "Pricing",
         },
       ],
