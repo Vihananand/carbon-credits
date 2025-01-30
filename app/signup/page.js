@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 
@@ -30,6 +30,10 @@ export default function SingUp() {
           </div>
         </div>
         <div className="bg-white shadow p-4 py-6 space-y-8 sm:p-6 sm:rounded-lg">
+          <div className="grid grid-cols-2 gap-x-2">
+          <button className="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100">Individual</button>
+          <button className="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100">Bussiness</button>
+          </div>
           <div className="grid grid-cols-3 gap-x-3">
             <button className="flex items-center justify-center py-2.5 border rounded-lg hover:bg-gray-50 duration-150 active:bg-gray-100">
               <svg
